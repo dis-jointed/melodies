@@ -1,0 +1,21 @@
+.featured {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left__cont {
+   width: 70%;
+   height: fit-content;
+}
+
+.featured__title {
+    margin-left: 40px;
+}
+
+.music__container{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

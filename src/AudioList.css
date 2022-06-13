@@ -1,0 +1,37 @@
+.audio__list {
+  height: fit-content;
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.audio__number {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    border: 2px solid gray;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 100%;
+    margin-top: 5px;
+   
+}
+
+.weekly__music {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.weekly__music h6 {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.weekly__music p{
+    font-size: 13px;
+
+}

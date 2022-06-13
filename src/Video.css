@@ -1,0 +1,15 @@
+.video audio {
+    outline: none;
+    border-radius: 0px;
+}
+
+.audio__cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.audio__cont img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

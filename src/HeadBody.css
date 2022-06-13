@@ -1,0 +1,150 @@
+.header__body {
+  height: 700px;
+  margin-top: 10px;
+  background-image: linear-gradient(to bottom right, #e0e0e0 70%, #ffd8d8);
+  margin-left: 12px;
+  margin-right: 12px;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+}
+
+.description__head {
+  margin-left: 13%;
+  margin-top: 170px;
+  color: #003b00;
+  font-size: 40px;
+  text-align: start;
+}
+
+.desc__content {
+  margin-left: 13%;
+  color: #003b00;
+  text-align: start;
+  font-size: 13px;
+}
+
+.box {
+
+    position: relative;
+    z-index: 100;
+    margin-top: 30px;
+}
+.email__input {
+    width: 600px;
+    height: fit-content;
+    background: white;
+    margin-left: 210px;
+    border-radius: 120px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    justify-content: space-between;
+    
+}
+
+.email__button {
+    background: #003b00;
+    border-radius: 30px;
+    height: 50px;
+    border: none;
+    width: 120px;
+    color: #e0e0e0;
+    padding: 5px 5px;
+    
+}
+
+.waves {
+    width: 400px;
+    width: 350px;
+    object-fit: contain;
+    opacity: 0.3;
+    z-index: 1;
+    margin-top: -500px;
+    transform: translate(920px, -200px);
+    
+}
+
+.user-box {
+  position: relative;
+}
+
+.user-box input {
+  height: 50px;
+  width: 300px;
+  font-size: 16px;
+  color: black;
+  margin-left: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 40px;
+  font-size: 16px;
+  color: black;
+  pointer-events: none;
+  transform: translate(0, 13px) scale(1);
+  transform-origin: top left;
+  transition: all 0.5s ease-out;
+}
+
+.user-box:focus-within label {
+  transform: translate(12px, 2px) scale(0.75);
+  font-size: 12px;
+}
+
+.remyy {
+    object-fit: contain;
+    margin-top: -400px;
+    margin-left: 900px;
+}
+
+.forest {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid white;
+    transform: translate(645px, -510px);
+
+}
+
+.firefly {
+ 
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+    transform: translate(750px, -510px);
+
+}
+
+
+.hill {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid white;
+    transform: translate(793px, -400px);
+}
+
+.wavee {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+    transform: translate(420px, -320px);
+}
+/* .login-box .user-box .Active {
+  transform: translate(0, 12px) scale(0.75);
+} */
